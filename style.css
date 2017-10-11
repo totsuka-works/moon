@@ -1,0 +1,104 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6,
+p, a, img,
+dl, dt, dd, ol, ul, li,
+table, caption, tbody, tfoot, thead, tr, th, td,
+footer, header, menu, nav, section, article,
+canvas {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	line-height: 1;
+	vertical-align: baseline;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: -apple-system, BlinkMacSystemFont, YuGothic, "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+body {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+a {
+	color: inherit;
+}
+
+img {
+	display: block
+	width: 100%
+}
+
+body {
+	font-size: 1.6rem;
+	background: #000;
+}
+
+nav.toc {
+	position: absolute;
+	left: 1rem;
+	bottom: 1rem;
+}
+
+nav.toc ol {
+	display: flex;
+	list-style: none;
+}
+
+nav.toc li {
+	padding: 0.8rem 2.5rem;
+	text-align: center;
+	letter-spacing: 0.05rem;
+	color: #FFF;
+	border-right: 1px solid #FFF;
+}
+
+nav.toc li:first-child {
+	border-left: 1px solid #FFF;
+}
+
+nav.toc li:hover {
+	background: #FFF;
+	color: #000;
+}
+
+
+nav.information {
+	position: absolute;
+	right: 1rem;
+	top: 1rem;
+	color: #FFF;
+}
+
+nav.information thead {
+	display: none;
+}
+
+nav.information tr {
+	display: table-cell;
+	padding: 0 1.5rem;
+	text-align: center;
+	border-right: 1px solid #FFF;
+}
+
+nav.information tr:first-child {
+	border-left: 1px solid #FFF;
+}
+
+nav.information td {
+	display: block;
+	font-size: 1.6rem;
+	margin: 0.8rem 0;
+}
+
+nav.information td:nth-child(2) {
+	font-size: 1rem;
+	font-weight: bold;
+}
